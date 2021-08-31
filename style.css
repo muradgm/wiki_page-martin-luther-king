@@ -86,18 +86,19 @@ p {
   width: 100vw;
   height: 100px;
   z-index: 10;
+  
 
 }
 
 
 ul {
-
   display: flex;
   flex-direction: row;
   justify-content: center;
   font-family: 'Georama';
   font-weight: 500;
   list-style: none;
+  margin-bottom: 2rem;
 }
 
 
