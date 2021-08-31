@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+body {
+  font-family: "Georama",
+    sans-serif;
+  font-weight: 400;
+  letter-spacing: inherit;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 1.3em;
+  background-color: #f5f6f8;
+  background-size: auto;
+  color: #333;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ----------------------------------------------- */
+/* LINKS */
+/* ----------------------------------------------- */
+
+aside,
+article,
+figcaption,
+figure,
+footer,
+header,
+section,
+div {
+  display: block;
+}
+
+
+h1,
+h2,
+h3 {
+  /* font-family: 'Georama', sans-serif;
+  font-style: normal; */
+  font-weight: 400;
+  letter-spacing: -.02em;
+  text-transform: auto;
+  font-size: 10.14px;
+  line-height: 1.3em;
+  margin-top: 0;
+}
+
+
+p {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+
+/* ----------------------------------------------- */
+/* HEADER - NAV */
+/* ----------------------------------------------- */
+
+#logo {
+  margin-left: 40px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  border: 2px solid #fff;
+  display: inline-block;  
+  border-width: 5px;
+  padding:2px;
+}
+
+
+.wiki-header {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 100px;
+  z-index: 10;
+
+}
+
+
+ul {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Georama';
+  font-weight: 500;
+  list-style: none;
+}
+
+
+li {
+  margin-left: 40px;
+}
+
+
+.wiki-header a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+  font-family: 'Georama';
+}
+
+
+.wiki-header a:visited,
+a:active {
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.wiki-header a:hover {
+  color: #ff0000;
+  transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+}
+
+
+/* ----------------------------------------------- */
+/* MAIN CONTAINERS */
+/* ----------------------------------------------- */
+
+.martin-page {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+
+.martin-section-details {
+  position: relative;
+}
+
+
+.martin-article {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+
+.martin-details {
+  padding: 30px 0;
+}
+
+
+/* ----------------------------------------------- */
+/* GRID */
+/* ----------------------------------------------- */
+
+.martin-page-grid {
+  display: grid;
+  grid-template-columns: 780px 300px;
+  grid-template-rows: auto;
+  justify-content: center;
+  margin: 0 auto;
+  grid-gap: 20px;
+}
+
+
+/* ----------------------------------------------- */
+/* SIDE - RIGHT SECTION */
+/* ----------------------------------------------- */
+
+img {
+  height: 280px;
+  width: 280px;
+}
+
+
+figure {
+  margin: 0;
+  border: thin #c0c0c0 solid;
+  padding: 9px;
+  margin-bottom: 70px;
+  ;
+  background-color: #fff;
+}
+
+
+figcaption {
+  font-family: 'Georama',
+    sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4em;
+  color: #333;
+  display: block;
+  font-style: italic !important;
+  line-height: 1.3em;
+  opacity: .7;
+  padding: 10px 0 10px 10px;
+  margin-bottom: 5px;
+}
+
+
+.martin-facts {
+  /* border: 1px solid rgba(51, 51, 51, .2); */
+  border: thin #c0c0c0 solid;
+  padding: 15px;
+  text-align: center;
+  background-color: #fff;
+}
+
+
+.martin-inner-container {
+  /* border: 1px solid rgba(51, 51, 51, .2); */
+  /* border: thin #c0c0c0 solid; */
+  padding: 15px;
+  text-align: center;
+  background-color: #f5f6f8;
+}
+
+
+.martin-quickfacts {
+  font-family: 'Georama',
+    sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: inherit;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 1.4em;
+  text-transform: uppercase;
+}
+
+
+.martin-facts dl {
+  display: block;
+  margin: 0;
+
+}
+
+
+.martin-facts dt {
+  font-family: 'Georama', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: inherit;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.4em;
+  color: #b4b4b4;
+  display: block;
+  margin-top: 10px;
+}
+
+
+.martin-facts dl dd {
+  font-family: open-sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: inherit;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 1.3em;
+  color: #333;
+  display: block;
+  margin-left: 0;
+}
+
+
+/* ----------------------------------------------- */
+/* LEFT SECTION - */
+/* ----------------------------------------------- */
+
+.martin-lg-header {
+  max-width: 780px;
+}
+
+
+.martin-hdr-title {
+  font-size: 2.5em;
+  line-height: 1em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+
+.martin-hdr-span {
+  color: rgba(51, 51, 51, .2);
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+.martin-header {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+
+.martin-hdr-p::after {
+  background-color: rgba(51, 51, 51, .2);
+  content: " ";
+  display: block;
+  height: 2px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+
+.martin-bio-opening {
+  font-size: 20px;
+  line-height: 1.25em;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+
+.martin-bio-body h2 {
+  font-size: 1.25em;
+  line-height: 1.65em;
+  font-weight: 600;
+}
